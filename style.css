@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+}
+
+.wrapper > div {
+  background-color: #fec1cb;/*hotpink*/
+  color: white;
+  font-size: 4vh;
+  margin: .1em;
+
+}
+
+.wrapper .wrapper > div {
+  background-color: #fd6cb4;
+  color: #fec1cb;
+}
